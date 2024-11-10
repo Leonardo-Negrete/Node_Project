@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Empleado</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./js/Agregar.js"></script>
+</head>
+<body>
+    <h1>Agregar Empleado</h1>
+    <div class="container">
+        <form id="addEmployeeForm">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="Nombre" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="number" id="telefono" name="Telefono" required>
+
+            <label for="correo">Correo:</label>
+            <input type="email" id="correo" name="Correo" required>
+
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" name="Direccion" required>
+
+            <button type="submit">Agregar Empleado</button>
+        </form>
+    </div>
+</body>
+</html>

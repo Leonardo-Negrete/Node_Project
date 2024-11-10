@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Empleado</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./js/Buscar.js"></script>
+</head>
+<body>
+    <h1>Buscar Empleado</h1>
+    <div class="container">
+        <form id="searchEmployeeForm">
+            <label for="nombre">Nombre del Empleado:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <button type="submit">Buscar Empleado</button>
+        </form>
+    </div>
+    <div id="employeeResult"></div>
+</body>
+</html>

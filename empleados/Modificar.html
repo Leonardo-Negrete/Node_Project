@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modificar Empleado</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./js/Modificar.js"></script>
+</head>
+<body>
+    <h1>Modificar Empleado</h1>
+    <div class="container">
+        <form id="modifyEmployeeForm">
+            <label for="id">ID del Empleado:</label>
+            <input type="number" id="id" name="id" required>
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="Nombre">
+
+            <label for="telefono">Teléfono:</label>
+            <input type="number" id="telefono" name="Telefono">
+
+            <label for="correo">Correo:</label>
+            <input type="email" id="correo" name="Correo">
+
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" name="Direccion">
+
+            <button type="submit">Modificar Empleado</button>
+        </form>
+    </div>
+</body>
+</html>
